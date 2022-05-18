@@ -23,14 +23,14 @@ const paragraphStyles = {
 
 
 // markup
-const IndexPage = () => {
+const ContactPage = () => {
   return (
     // querys
     <>
-    <h1 style={h2Styles}>fuck</h1>
+    <h1 style={h2Styles}>contact</h1>
     <Header></Header>
     </>
   )
 }
 
-export default IndexPage
+export default ContactPage
