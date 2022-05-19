@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from '../components/header'
+
 // styles
 const pageStyles = {
   color: 'black',
@@ -16,7 +17,7 @@ const Homepage = () => {
   return (
     // querys
     <>
-
+<h1>hi</h1>
     </>
   )
 }

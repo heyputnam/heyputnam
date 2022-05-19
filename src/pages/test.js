@@ -1,6 +1,5 @@
 import * as React from "react"
-import Header from '../components/header'
-import BackgroundImg from '../images/websiteCover.png'
+import HomePage from '../components/homepage'
 // styles
 const pageStyles = {
   color: 'black',
@@ -24,15 +23,14 @@ const paragraphStyles = {
 
 
 // markup
-const IndexPage = () => {
+const TestPage = () => {
   return (
     // querys
     <>
-    <img src={BackgroundImg} display='flex'/>
-    <h1 style={h2Styles}>fuck</h1>
-    <Header></Header>
+    <h1 style={h2Styles}>testing</h1>
+    <HomePage />
     </>
   )
 }
 
-export default IndexPage
+export default TestPage
