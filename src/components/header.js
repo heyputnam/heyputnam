@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import IconImg from "../images/icon.png"
 const h1Styles = {
   marginTop: 0,
   marginBottom: 64,
@@ -10,9 +10,14 @@ const h1Styles = {
 const Header = () => {
   return (
     // querys
+    <>
+    <img
 
+    alt="Gatsby G Logo"
+    src={IconImg} width='24' height='24' fill='none'
+  />
     <h1 style={h1Styles}>header</h1>
-
+</>
 
   )
 }
